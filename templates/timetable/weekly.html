@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weekly.css">
     <title>Document</title>
 </head>
 <body>
+    <div id="center">
+        <form method="post" action="/timetable">
+            <label for="day">Thứ:</label><br>
+            <select name="day" id="day">
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="sunday">Chủ nhật</option>
+            </select><br>
+            <label for="time_start">Bắt đầu:</label><br>
+            <input type="text" id="time_start" name="time_start"><br>
+            <label for="time_end">Kết thúc:</label><br>
+            <input type="text" id="time_end" name="time_end"><br>
+            <label for="description">Công việc:</label><br>
+            <input type="text" id="description" name="description"><br><br>
+            <input type="submit" value="Xác nhận" id="submit" >
+        </form>
+    </div>
     
 </body>
 </html>
