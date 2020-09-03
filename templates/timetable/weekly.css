@@ -1,0 +1,11 @@
+#center {
+    margin: auto;
+    width: 13%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+#submit{
+    margin:auto;
+    width:50%
+}
